@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "DocumentFormat.OpenXmlSDK/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Net35/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net35/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO.Packaging/9.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "DocumentGeneratorService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DocumentFormat.OpenXmlSDK": "2.0.0",
+          "System.IO.Packaging": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DocumentGeneratorService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DocumentGeneratorService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DocumentFormat.OpenXmlSDK/2.0.0": {
+      "sha512": "GmC9om1pmAiOuzBD8a0ZvBUhn2mKwNjLIRo7ceiYCstyHW5ahH7bxZy3fQIsxBgy3ra3ce1STJfcT6/sh3gtlA==",
+      "type": "package",
+      "path": "documentformat.openxmlsdk/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxmlsdk.2.0.0.nupkg.sha512",
+        "documentformat.openxmlsdk.nuspec",
+        "lib/Net35/DocumentFormat.OpenXml.dll",
+        "lib/Net35/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "System.IO.Packaging/9.0.3": {
+      "sha512": "xNTWjkHdvSZ7pqf0UwfH+h8EIHk98ezjDkoDG6Ahkt9f0Aene/01svcBfWUMBxM9ss4LeLvCQXbXidOODq9CDA==",
+      "type": "package",
+      "path": "system.io.packaging/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Packaging.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "lib/net462/System.IO.Packaging.dll",
+        "lib/net462/System.IO.Packaging.xml",
+        "lib/net8.0/System.IO.Packaging.dll",
+        "lib/net8.0/System.IO.Packaging.xml",
+        "lib/net9.0/System.IO.Packaging.dll",
+        "lib/net9.0/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.9.0.3.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "DocumentGeneratorService/1.0.0": {
+      "type": "project",
+      "path": "../DocumentGeneratorService/DocumentGeneratorService.csproj",
+      "msbuildProject": "../DocumentGeneratorService/DocumentGeneratorService.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "DocumentGeneratorService >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\paras\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\paras\\Documents\\Visual Studio 2022\\Code Snippets\\Visual C#\\My Code Snippets\\InfoPathPowerApps\\DocumentGenerator\\DocumentGenerator\\DocumentGenerator.csproj",
+      "projectName": "DocumentGenerator",
+      "projectPath": "C:\\Users\\paras\\Documents\\Visual Studio 2022\\Code Snippets\\Visual C#\\My Code Snippets\\InfoPathPowerApps\\DocumentGenerator\\DocumentGenerator\\DocumentGenerator.csproj",
+      "packagesPath": "C:\\Users\\paras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paras\\Documents\\Visual Studio 2022\\Code Snippets\\Visual C#\\My Code Snippets\\InfoPathPowerApps\\DocumentGenerator\\DocumentGenerator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\paras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\paras\\Documents\\Visual Studio 2022\\Code Snippets\\Visual C#\\My Code Snippets\\InfoPathPowerApps\\DocumentGenerator\\DocumentGeneratorService\\DocumentGeneratorService.csproj": {
+              "projectPath": "C:\\Users\\paras\\Documents\\Visual Studio 2022\\Code Snippets\\Visual C#\\My Code Snippets\\InfoPathPowerApps\\DocumentGenerator\\DocumentGeneratorService\\DocumentGeneratorService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DocumentFormat.OpenXmlSDK 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DocumentFormat.OpenXmlSDK",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

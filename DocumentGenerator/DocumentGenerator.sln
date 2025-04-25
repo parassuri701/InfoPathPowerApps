@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentGenerator", "DocumentGenerator\DocumentGenerator.csproj", "{959355DE-5059-4A7A-8E33-200098858939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentGeneratorService", "DocumentGeneratorService\DocumentGeneratorService.csproj", "{E472778D-16D6-41D6-A69C-727D8FDC7F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{959355DE-5059-4A7A-8E33-200098858939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959355DE-5059-4A7A-8E33-200098858939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959355DE-5059-4A7A-8E33-200098858939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959355DE-5059-4A7A-8E33-200098858939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E472778D-16D6-41D6-A69C-727D8FDC7F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E472778D-16D6-41D6-A69C-727D8FDC7F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E472778D-16D6-41D6-A69C-727D8FDC7F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E472778D-16D6-41D6-A69C-727D8FDC7F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58BA4B9C-A55C-428C-A3BF-9763EE2D60EB}
+	EndGlobalSection
+EndGlobal
