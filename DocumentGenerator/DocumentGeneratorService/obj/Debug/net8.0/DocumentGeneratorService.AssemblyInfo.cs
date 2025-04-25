@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocumentGeneratorService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cb851bac1d7923f427d50b4b7b3c62c649ddd5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+688e7441dfcbe94169c28c77107f7f5ca6d438db")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocumentGeneratorService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocumentGeneratorService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
